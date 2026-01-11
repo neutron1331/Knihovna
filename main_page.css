@@ -2,11 +2,26 @@ body
 {
     background-color: #090a0a;
     color: #eeefff;
+    margin: 0;
+    padding: 0;
 }
 
 a 
 {
-    color: aqua;
+    color: #eeefff;
+    text-decoration: none;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+}
+
+h3
+{
+    padding: 0;
+    margin: 0;
 }
 
 #selected
@@ -16,15 +31,17 @@ a
 
 .navbar_header
 {
+    border-bottom: solid #eeefff 1px;
+    border-collapse: collapse;
     background-color: #1b1e1e;
     display: flex;
     justify-content: space-between;
-    padding: 0px 40px;
+    padding: 0 40px;
+    margin: 0;
 }
 
 .navbar_header_links
-{
-    border: solid;
+{    
     display: flex;
     align-items: center;
 }
@@ -33,4 +50,117 @@ a
 {
     border: solid #eeefff 1px;
     padding: 10px;
+    height: 40px;
+}
+
+.main_showcase
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px 100px;
+    gap: 50px;
+}
+
+.main_showcase div
+{ 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main_showcase a
+{ 
+    border: solid #eeefff 1px;
+    padding: 10px 30px;
+    text-align: center;
+    width: 33%;
+    border-radius: 20px;
+    background-color: #2a2f2f;
+    transition: ease-in-out 100ms;
+    margin-top: 20px;
+}
+
+.main_showcase a:hover
+{
+    background-color: #647171;
+    scale: 110%;
+}
+
+#book_cover
+{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+
+
+
+
+.navbar_books
+{
+    border-top: solid #eeefff 1px;
+    border-bottom: solid #eeefff 1px;
+    border-collapse: collapse;
+    background-color: #1b1e1e;
+    display: flex;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.navbar_books a
+{
+    border: solid #eeefff 1px;
+    padding: 20px;
+    
+}
+
+.main_books_viewbox
+{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+
+.main_books_viewbox a
+{ 
+    border: solid #eeefff 1px;
+    padding: 10px 30px;
+    text-align: center;
+    width: 33%;
+    border-radius: 20px;
+    background-color: #2a2f2f;
+    transition: ease-in-out 100ms;
+    margin-top: 20px;
+}
+
+.main_books_viewbox a:hover
+{
+    background-color: #647171;
+    scale: 110%;
+}
+
+.main_books_viewbox section
+{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.main_books_viewbox div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_books_viewbox hr
+{
+    width: 50%;
+    justify-content: left;
+    justify-self: left;
+    text-align: left;
 }

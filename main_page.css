@@ -1,0 +1,36 @@
+body
+{
+    background-color: #090a0a;
+    color: #eeefff;
+}
+
+a 
+{
+    color: aqua;
+}
+
+#selected
+{
+    background-color: #2f4e4e;
+}
+
+.navbar_header
+{
+    background-color: #1b1e1e;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.navbar_header_links
+{
+    border: solid;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_header_links a
+{
+    border: solid #eeefff 1px;
+    padding: 10px;
+}

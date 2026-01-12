@@ -53,12 +53,17 @@ h3
     height: 40px;
 }
 
+#main_header
+{
+     margin: 30px 150px;
+}
+
 .main_showcase
 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     margin: 30px 100px;
-    gap: 50px;
+    gap: 40px;
 }
 
 .main_showcase div
@@ -72,9 +77,9 @@ h3
 .main_showcase a
 { 
     border: solid #eeefff 1px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-align: center;
-    width: 33%;
+    width: 70%;
     border-radius: 20px;
     background-color: #2a2f2f;
     transition: ease-in-out 100ms;
@@ -154,13 +159,14 @@ h3
 {
     display: flex;
     flex-direction: column;
+    text-align: left;
     justify-content: center;
 }
-
+.main_books_viewbox h1{
+    font-size: 2rem;
+}
 .main_books_viewbox hr
 {
-    width: 50%;
-    justify-content: left;
-    justify-self: left;
-    text-align: left;
+    width: 100%;
+    
 }
